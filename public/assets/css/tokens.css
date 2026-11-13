@@ -1,0 +1,58 @@
+/* =========================================================
+   Vina Nuraini — Design tokens
+   Modern editorial / dark minimalist
+   ========================================================= */
+
+:root {
+  /* Palette */
+  --c-ink: #101010;
+  --c-maroon: #641C2B;
+  --c-maroon-deep: #3D111C;
+  --c-paper: #F5F3F0;
+  --c-gray: #A6A6A6;
+
+  --c-paper-soft: rgba(245, 243, 240, 0.66);
+  --c-ink-soft: rgba(16, 16, 16, 0.66);
+
+  --line-dark: rgba(245, 243, 240, 0.16);
+  --line-dark-strong: rgba(245, 243, 240, 0.34);
+  --line-light: rgba(16, 16, 16, 0.16);
+  --line-light-strong: rgba(16, 16, 16, 0.34);
+
+  /* Typography */
+  --font-display: "Playfair Display", "Times New Roman", Georgia, serif;
+  --font-body: "Manrope", "Segoe UI", Arial, sans-serif;
+
+  --fs-display: clamp(3.4rem, 9.6vw, 8rem);
+  --fs-section: clamp(2.3rem, 5.4vw, 4.8rem);
+  --fs-numeral: clamp(4.4rem, 9vw, 8.2rem);
+  --fs-body: clamp(0.94rem, 1vw, 1rem);
+  --fs-small: 0.8rem;
+  --fs-label: 0.64rem;
+
+  /* Layout */
+  --container: 1220px;
+  --gutter: clamp(20px, 4vw, 56px);
+  --section-y: clamp(72px, 9vw, 124px);
+  --nav-h: 64px;
+
+  /* Motion */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-soft: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --dur-fast: 0.25s;
+  --dur-mid: 0.45s;
+  --dur-slow: 0.9s;
+
+  /* Surface */
+  --radius: 2px;
+  --grain-opacity: 0.035;
+  --z-menu: 95;
+  --z-header: 100;
+  --z-modal: 200;
+}
+
+@media (min-width: 900px) {
+  :root {
+    --nav-h: 72px;
+  }
+}

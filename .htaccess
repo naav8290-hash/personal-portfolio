@@ -1,0 +1,3 @@
+# Root project Laravel tidak untuk diakses langsung lewat Apache.
+# Jalankan aplikasi dengan: php artisan serve
+Require all denied

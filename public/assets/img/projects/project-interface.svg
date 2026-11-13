@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img" aria-label="Abstract UI/UX design project placeholder">
+  <defs>
+    <linearGradient id="ubg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101010"/>
+      <stop offset=".55" stop-color="#2A0C14"/>
+      <stop offset="1" stop-color="#641C2B"/>
+    </linearGradient>
+    <filter id="ugrain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".8" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope=".4"/></feComponentTransfer>
+    </filter>
+  </defs>
+  <rect width="1200" height="900" fill="url(#ubg)"/>
+
+  <rect x="148" y="148" width="360" height="604" fill="#101010" fill-opacity=".55" stroke="#F5F3F0" stroke-opacity=".4" stroke-width="1.5"/>
+  <rect x="436" y="216" width="400" height="536" fill="#F5F3F0" fill-opacity=".94"/>
+  <rect x="780" y="112" width="272" height="424" fill="none" stroke="#F5F3F0" stroke-opacity=".35" stroke-width="1.5"/>
+
+  <g fill="#F5F3F0" fill-opacity=".3">
+    <rect x="184" y="192" width="118" height="12"/>
+    <rect x="184" y="224" width="248" height="8"/>
+    <rect x="184" y="242" width="206" height="8"/>
+    <rect x="184" y="302" width="288" height="156"/>
+    <rect x="184" y="482" width="132" height="8"/>
+    <rect x="184" y="500" width="222" height="8"/>
+  </g>
+
+  <g fill="#101010" fill-opacity=".82">
+    <rect x="472" y="252" width="146" height="12"/>
+    <rect x="472" y="282" width="304" height="7"/>
+    <rect x="472" y="300" width="262" height="7"/>
+    <rect x="472" y="344" width="328" height="132"/>
+    <rect x="472" y="504" width="96" height="34"/>
+    <circle cx="490" cy="584" r="14"/>
+    <rect x="518" y="576" width="118" height="8"/>
+    <rect x="518" y="592" width="76" height="8"/>
+  </g>
+  <rect x="580" y="504" width="96" height="34" fill="#641C2B"/>
+
+  <circle cx="916" cy="228" r="76" fill="none" stroke="#F5F3F0" stroke-opacity=".5" stroke-width="1.5"/>
+  <circle cx="916" cy="228" r="34" fill="#641C2B"/>
+  <path d="M780 352h272M780 388h180M780 424h220" stroke="#F5F3F0" stroke-opacity=".3" stroke-width="1"/>
+
+  <g fill="#F5F3F0" fill-opacity=".6">
+    <circle cx="148" cy="148" r="4"/>
+    <circle cx="1052" cy="752" r="4"/>
+  </g>
+  <path d="M1040 148v604M148 752h904" stroke="#F5F3F0" stroke-opacity=".14"/>
+
+  <rect width="1200" height="900" filter="url(#ugrain)" opacity=".28" style="mix-blend-mode:overlay"/>
+</svg>

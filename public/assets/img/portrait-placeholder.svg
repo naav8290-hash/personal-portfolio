@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1200" width="900" height="1200" role="img" aria-label="Abstract editorial portrait placeholder with deep maroon tones">
+  <defs>
+    <linearGradient id="drape" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3D111C"/>
+      <stop offset=".52" stop-color="#641C2B"/>
+      <stop offset="1" stop-color="#1A070C"/>
+    </linearGradient>
+    <radialGradient id="light" cx=".72" cy=".24" r=".7">
+      <stop offset="0" stop-color="#9A3B4E" stop-opacity=".55"/>
+      <stop offset=".55" stop-color="#641C2B" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#101010" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency=".82" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope=".42"/>
+      </feComponentTransfer>
+    </filter>
+    <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset=".6" stop-color="#101010" stop-opacity="0"/>
+      <stop offset="1" stop-color="#101010" stop-opacity=".86"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="900" height="1200" fill="#101010"/>
+  <rect width="900" height="1200" fill="url(#light)"/>
+
+  <path d="M438 -60C664 40 916 228 936 512c22 312-170 560-402 628-172 50-362 12-482-84V-60Z" fill="url(#drape)" opacity=".94"/>
+  <path d="M0 874c188-96 338-120 506-62 144 50 262 18 394-58v446H0Z" fill="#2A0C14" opacity=".9"/>
+
+  <g fill="none" stroke="#F5F3F0" stroke-width="1.5" opacity=".2">
+    <path d="M236 1010V586a214 214 0 0 1 428 0v424"/>
+    <path d="M286 1010V594a164 164 0 0 1 328 0v416"/>
+    <path d="M118 120V1010"/>
+    <path d="M782 120V1010"/>
+    <path d="M118 356h664" opacity=".55"/>
+  </g>
+
+  <g fill="#F5F3F0" opacity=".5">
+    <circle cx="118" cy="356" r="3.5"/>
+    <circle cx="782" cy="356" r="3.5"/>
+  </g>
+
+  <rect x="118" y="120" width="46" height="46" fill="none" stroke="#F5F3F0" stroke-width="1.5" opacity=".38"/>
+  <rect x="736" y="964" width="46" height="46" fill="#641C2B"/>
+
+  <text x="450" y="1030" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-style="italic" font-size="330" fill="#F5F3F0" opacity=".06">VN</text>
+
+  <rect width="900" height="1200" fill="url(#shade)"/>
+  <rect width="900" height="1200" filter="url(#grain)" opacity=".3" style="mix-blend-mode:overlay"/>
+</svg>
